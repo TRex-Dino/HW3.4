@@ -11,6 +11,7 @@
 		0A81EA0B267346BD00509301 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81EA0A267346BD00509301 /* ContentView.swift */; };
 		0A81EA0D267346BE00509301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81EA0C267346BE00509301 /* Assets.xcassets */; };
 		0A81EA10267346BE00509301 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A81EA0F267346BE00509301 /* Preview Assets.xcassets */; };
+		0A81EA18267348A100509301 /* SliderUIkit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A81EA17267348A100509301 /* SliderUIkit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		0A81EA0C267346BE00509301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A81EA0F267346BE00509301 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0A81EA11267346BE00509301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A81EA17267348A100509301 /* SliderUIkit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUIkit.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		0A81EA07267346BD00509301 /* HW3.4 */ = {
 			isa = PBXGroup;
 			children = (
+				0A81EA17267348A100509301 /* SliderUIkit.swift */,
 				0A81EA08267346BD00509301 /* HW3_4App.swift */,
 				0A81EA0A267346BD00509301 /* ContentView.swift */,
 				0A81EA0C267346BE00509301 /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A81EA18267348A100509301 /* SliderUIkit.swift in Sources */,
 				0A81EA0B267346BD00509301 /* ContentView.swift in Sources */,
 				0A81EA09267346BD00509301 /* HW3_4App.swift in Sources */,
 			);
