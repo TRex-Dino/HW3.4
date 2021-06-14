@@ -10,7 +10,7 @@ import SwiftUI
 struct SliderUIkit: UIViewRepresentable {
     @Binding var value: Double
     let alpha: Double
-    
+    //обязательный метод
     func makeUIView(context: Context) -> UISlider {
         let slider = UISlider()
         slider.minimumValue = 0
@@ -20,7 +20,7 @@ struct SliderUIkit: UIViewRepresentable {
                          for: .valueChanged)
         return slider
     }
-    
+    //обязательный метод
     func updateUIView(_ uiView: UISlider, context: Context) {
         uiView.value = Float(value)
         uiView.thumbTintColor = UIColor(red: 1,
@@ -28,7 +28,7 @@ struct SliderUIkit: UIViewRepresentable {
                                         blue: 0,
                                         alpha: CGFloat(alpha))
     }
-    
+    //обязательный метод чтобы изменять значение в слайдере
     func makeCoordinator() -> Coordinator {
         Coordinator(value: $value)
     }
